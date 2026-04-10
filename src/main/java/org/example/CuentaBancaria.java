@@ -12,7 +12,7 @@ public class CuentaBancaria {
     // Cambio en GitHub
     public void depositar(double cantidad) {
         if (cantidad > 0) {
-            saldo += cantidad;
+            saldo += cantidad; // Cambio en intellijei para conflicto
         }
     }
 
