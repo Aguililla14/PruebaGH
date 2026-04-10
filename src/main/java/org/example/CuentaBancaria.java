@@ -9,6 +9,7 @@ public class CuentaBancaria {
         this.saldo = saldoInicial;
     }
 
+    // Cambio en GitHub
     public void depositar(double cantidad) {
         if (cantidad > 0) {
             saldo += cantidad;
